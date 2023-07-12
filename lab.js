@@ -8,13 +8,13 @@
 
 //CODE HERE
 
-// let lovesCode = true
+let lovesCode = true
 
-// if(lovesCode === true) {
-//   console.log("I love to code!")
-// } else {
-//   console.log("Coding has its challenges")
-// }
+if(lovesCode === true) {
+  console.log("I love to code!")
+} else {
+  console.log("Coding has its challenges")
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -30,13 +30,13 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
-// if(amysAge > brittanisAge ) {
-//   console.log(` Amy is ${amysAge} and is older`)
-// } else if (brittanisAge > amysAge) {
-//   console.log(`Brittani is ${brittanisAge} and is older`)
-// } else {
-//   console.log("They're the same age")
-// }
+if(amysAge > brittanisAge ) {
+  console.log(` Amy is ${amysAge} and is older`)
+} else if (brittanisAge > amysAge) {
+  console.log(`Brittani is ${brittanisAge} and is older`)
+} else {
+  console.log("They're the same age")
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -47,11 +47,11 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
-// if(amysBirthYear === brittanisBirthYear) {
-//   console.log("Amy & Brittani were born in the same year")
-// } else {
-//   console.log("Amy & Brittani were not born in the same year")
-// }
+if(amysBirthYear === brittanisBirthYear) {
+  console.log("Amy & Brittani were born in the same year")
+} else {
+  console.log("Amy & Brittani were not born in the same year")
+}
 
 ////////// PROBLEM 4 //////////
 
@@ -65,15 +65,15 @@ let rain = true;
 
 //CODE HERE
 
-// if(temperature > 80) {
-//   console.log("one should wear a t-shirt and take an umbrella")
-// } else if (temperature > 60 && temperature < 80) {
-//   console.log("one should wear a rain-jacket and take an umbrella")
-// } else if (temperature < 60) {
-//   console.log("one should wear a jacket and carry an umbrella")
-// } else {
-//   console.log("This is some crazy weather you should just stay home")
-// }
+if(temperature > 80) {
+  console.log("one should wear a t-shirt and take an umbrella")
+} else if (temperature > 60 && temperature < 80) {
+  console.log("one should wear a rain-jacket and take an umbrella")
+} else if (temperature < 60) {
+  console.log("one should wear a jacket and carry an umbrella")
+} else {
+  console.log("This is some crazy weather you should just stay home")
+}
 
 ////////// PROBLEM 5 //////////
 
@@ -83,9 +83,9 @@ let rain = true;
 
 //CODE HERE
 
-// for (let i = 0; i < 10; i++) {
-//   console.log("Hello")
-// }
+for (let i = 0; i < 10; i++) {
+  console.log("Hello")
+}
 
 
 
@@ -97,9 +97,9 @@ let rain = true;
 
 //CODE HERE
 
-// for (let i = 1; i <= 10; i++) {
-//   console.log(i)
-// }
+for (let i = 1; i <= 10; i++) {
+  console.log(i)
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -109,9 +109,9 @@ let rain = true;
 
 //CODE HERE
 
-// for (let i = 10; i >=1; i--) {
-//   console.log(i)
-// }
+for (let i = 10; i >=1; i--) {
+  console.log(i)
+}
 
 
 ////////// PROBLEM 8 //////////
@@ -125,10 +125,10 @@ let passingScore = 7;
 
 //CODE HERE
 
-// while(score < passingScore) {
-//   console.log("Your score is not high enough")
-//   score += 1
-// }
+while(score < passingScore) {
+  console.log("Your score is not high enough")
+  score += 1
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -143,13 +143,13 @@ let passingScore = 7;
 
 let changeMyMind = true
 
-// if (changeMyMind === true) {
-//   changeMyMind = false
-//   console.log(changeMyMind)
-// } else if (changeMyMind === false){
-//   changeMyMind = true
-//   console.log(changeMyMind)
-// }
+if (changeMyMind === true) {
+  changeMyMind = false
+  console.log(changeMyMind)
+} else {
+  changeMyMind = true
+  console.log(changeMyMind)
+}
 
 
 ////////// PROBLEM 10 //////////
@@ -157,8 +157,8 @@ let changeMyMind = true
 
 //CODE HERE
 
-// changeMyMind = !changeMyMind
-// console.log(changeMyMind)
+changeMyMind = !changeMyMind
+console.log(changeMyMind)
 
 
 ////////// ADVANCED PROBLEMS //////////
@@ -170,9 +170,9 @@ let z = 5;
 
 //CODE HERE
 
-// while (z > 0) {
-//   for (let i = z; i > 0; i--){
-//   console.log(i)
-//   }
-// z--
-// }
+while (z > 0) {
+  for (let i = z; i > 0; i--){
+  console.log(i)
+  }
+z--
+}
